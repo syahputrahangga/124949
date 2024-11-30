@@ -1,5 +1,5 @@
+from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, filters, CallbackContext
-
 # Replace with your bot token
 BOT_TOKEN = "7622955711:AAGkopqi25sUkL-wxcsnkTBLo19gECeDHCs"
 
