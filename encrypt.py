@@ -1,11 +1,4 @@
-import os
-import gzip
-import random
-import string
-from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
-from cryptography.hazmat.backends import default_backend
-from telegram import Update, Bot
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
+from telegram.ext import Updater, CommandHandler, MessageHandler, filters, CallbackContext
 
 # Replace with your bot token
 BOT_TOKEN = "7622955711:AAGkopqi25sUkL-wxcsnkTBLo19gECeDHCs"
